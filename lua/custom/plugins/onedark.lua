@@ -5,12 +5,12 @@
 return {
   -- Using Lazy
 
-  'navarasu/onedark.nvim',
+  'nicoscherp/onedark.nvim',
   priority = 1000, -- make sure to load this before all the other start plugins
   config = function()
     require('onedark').setup {
-      transparent = true,
-      style = 'darker',
+      transparent = false,
+      style = 'dark',
     }
     -- Enable theme
     require('onedark').load()
